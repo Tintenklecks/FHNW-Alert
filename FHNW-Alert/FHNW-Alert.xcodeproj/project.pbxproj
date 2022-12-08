@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA23E6722941F0BF0006160D /* FHNW_AlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23E6712941F0BF0006160D /* FHNW_AlertApp.swift */; };
-		AA23E6742941F0BF0006160D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA23E6732941F0BF0006160D /* ContentView.swift */; };
-		AA23E6762941F0C40006160D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA23E6752941F0C40006160D /* Assets.xcassets */; };
-		AA23E6792941F0C40006160D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA23E6782941F0C40006160D /* Preview Assets.xcassets */; };
+		AAFC30A52941D59700A00826 /* FHNW_AlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC30A42941D59700A00826 /* FHNW_AlertApp.swift */; };
+		AAFC30A72941D59700A00826 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC30A62941D59700A00826 /* ContentView.swift */; };
+		AAFC30A92941D59B00A00826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFC30A82941D59B00A00826 /* Assets.xcassets */; };
+		AAFC30AC2941D59B00A00826 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFC30AB2941D59B00A00826 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA23E66E2941F0BF0006160D /* FHNW-Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FHNW-Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA23E6712941F0BF0006160D /* FHNW_AlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHNW_AlertApp.swift; sourceTree = "<group>"; };
-		AA23E6732941F0BF0006160D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AA23E6752941F0C40006160D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA23E6782941F0C40006160D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAFC30A12941D59700A00826 /* FHNW-Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FHNW-Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFC30A42941D59700A00826 /* FHNW_AlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHNW_AlertApp.swift; sourceTree = "<group>"; };
+		AAFC30A62941D59700A00826 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAFC30A82941D59B00A00826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFC30AB2941D59B00A00826 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA23E66B2941F0BF0006160D /* Frameworks */ = {
+		AAFC309E2941D59700A00826 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA23E6652941F0BF0006160D = {
+		AAFC30982941D59700A00826 = {
 			isa = PBXGroup;
 			children = (
-				AA23E6702941F0BF0006160D /* FHNW-Alert */,
-				AA23E66F2941F0BF0006160D /* Products */,
+				AAFC30A32941D59700A00826 /* FHNW-Alert */,
+				AAFC30A22941D59700A00826 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AA23E66F2941F0BF0006160D /* Products */ = {
+		AAFC30A22941D59700A00826 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA23E66E2941F0BF0006160D /* FHNW-Alert.app */,
+				AAFC30A12941D59700A00826 /* FHNW-Alert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA23E6702941F0BF0006160D /* FHNW-Alert */ = {
+		AAFC30A32941D59700A00826 /* FHNW-Alert */ = {
 			isa = PBXGroup;
 			children = (
-				AA23E6712941F0BF0006160D /* FHNW_AlertApp.swift */,
-				AA23E6732941F0BF0006160D /* ContentView.swift */,
-				AA23E6752941F0C40006160D /* Assets.xcassets */,
-				AA23E6772941F0C40006160D /* Preview Content */,
+				AAFC30A62941D59700A00826 /* ContentView.swift */,
+				AAFC30A42941D59700A00826 /* FHNW_AlertApp.swift */,
+				AAFC30A82941D59B00A00826 /* Assets.xcassets */,
+				AAFC30AA2941D59B00A00826 /* Preview Content */,
 			);
 			path = "FHNW-Alert";
 			sourceTree = "<group>";
 		};
-		AA23E6772941F0C40006160D /* Preview Content */ = {
+		AAFC30AA2941D59B00A00826 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AA23E6782941F0C40006160D /* Preview Assets.xcassets */,
+				AAFC30AB2941D59B00A00826 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA23E66D2941F0BF0006160D /* FHNW-Alert */ = {
+		AAFC30A02941D59700A00826 /* FHNW-Alert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA23E67C2941F0C40006160D /* Build configuration list for PBXNativeTarget "FHNW-Alert" */;
+			buildConfigurationList = AAFC30AF2941D59B00A00826 /* Build configuration list for PBXNativeTarget "FHNW-Alert" */;
 			buildPhases = (
-				AA23E66A2941F0BF0006160D /* Sources */,
-				AA23E66B2941F0BF0006160D /* Frameworks */,
-				AA23E66C2941F0BF0006160D /* Resources */,
+				AAFC309D2941D59700A00826 /* Sources */,
+				AAFC309E2941D59700A00826 /* Frameworks */,
+				AAFC309F2941D59700A00826 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = "FHNW-Alert";
 			productName = "FHNW-Alert";
-			productReference = AA23E66E2941F0BF0006160D /* FHNW-Alert.app */;
+			productReference = AAFC30A12941D59700A00826 /* FHNW-Alert.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA23E6662941F0BF0006160D /* Project object */ = {
+		AAFC30992941D59700A00826 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					AA23E66D2941F0BF0006160D = {
+					AAFC30A02941D59700A00826 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = AA23E6692941F0BF0006160D /* Build configuration list for PBXProject "FHNW-Alert" */;
+			buildConfigurationList = AAFC309C2941D59700A00826 /* Build configuration list for PBXProject "FHNW-Alert" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = AA23E6652941F0BF0006160D;
-			productRefGroup = AA23E66F2941F0BF0006160D /* Products */;
+			mainGroup = AAFC30982941D59700A00826;
+			productRefGroup = AAFC30A22941D59700A00826 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA23E66D2941F0BF0006160D /* FHNW-Alert */,
+				AAFC30A02941D59700A00826 /* FHNW-Alert */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA23E66C2941F0BF0006160D /* Resources */ = {
+		AAFC309F2941D59700A00826 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA23E6792941F0C40006160D /* Preview Assets.xcassets in Resources */,
-				AA23E6762941F0C40006160D /* Assets.xcassets in Resources */,
+				AAFC30AC2941D59B00A00826 /* Preview Assets.xcassets in Resources */,
+				AAFC30A92941D59B00A00826 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA23E66A2941F0BF0006160D /* Sources */ = {
+		AAFC309D2941D59700A00826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA23E6742941F0BF0006160D /* ContentView.swift in Sources */,
-				AA23E6722941F0BF0006160D /* FHNW_AlertApp.swift in Sources */,
+				AAFC30A72941D59700A00826 /* ContentView.swift in Sources */,
+				AAFC30A52941D59700A00826 /* FHNW_AlertApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AA23E67A2941F0C40006160D /* Debug */ = {
+		AAFC30AD2941D59B00A00826 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		AA23E67B2941F0C40006160D /* Release */ = {
+		AAFC30AE2941D59B00A00826 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +259,7 @@
 			};
 			name = Release;
 		};
-		AA23E67D2941F0C40006160D /* Debug */ = {
+		AAFC30B02941D59B00A00826 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		AA23E67E2941F0C40006160D /* Release */ = {
+		AAFC30B12941D59B00A00826 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA23E6692941F0BF0006160D /* Build configuration list for PBXProject "FHNW-Alert" */ = {
+		AAFC309C2941D59700A00826 /* Build configuration list for PBXProject "FHNW-Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA23E67A2941F0C40006160D /* Debug */,
-				AA23E67B2941F0C40006160D /* Release */,
+				AAFC30AD2941D59B00A00826 /* Debug */,
+				AAFC30AE2941D59B00A00826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA23E67C2941F0C40006160D /* Build configuration list for PBXNativeTarget "FHNW-Alert" */ = {
+		AAFC30AF2941D59B00A00826 /* Build configuration list for PBXNativeTarget "FHNW-Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA23E67D2941F0C40006160D /* Debug */,
-				AA23E67E2941F0C40006160D /* Release */,
+				AAFC30B02941D59B00A00826 /* Debug */,
+				AAFC30B12941D59B00A00826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AA23E6662941F0BF0006160D /* Project object */;
+	rootObject = AAFC30992941D59700A00826 /* Project object */;
 }
