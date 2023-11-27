@@ -12,28 +12,29 @@ import SwiftUI
 struct ContentView: View {
     @State private var showAlert = false
     @State private var showAlert2 = false
+
+    @State private var text = ""
+
+    @State private var showError = false
+    @State private var errorText = ""
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-
-            Text("Hello, world!")
-                .padding(.bottom, 48)
+            // MARK: - Button 1 -
 
             Button("Show alert") {
                 showAlert.toggle()
-            }
-            .alert(isPresented: $showAlert) {
+            }.alert(isPresented: $showAlert) {
                 Alert(title: Text("I am the title"),
                       message: Text("I am the message"),
                       dismissButton: .destructive(Text("Destructive")))
             }
 
+            // MARK: - Button 2 -
+
             Button("Show alert with two buttons") {
                 showAlert2.toggle()
-            }
-            .alert(isPresented: $showAlert2) {
+            }.alert(isPresented: $showAlert2) {
                 Alert(title: Text("Title for 2 buttons"),
                       primaryButton: .default(Text("Default")),
                       secondaryButton: .destructive(Text("Kaputt")) {
@@ -41,9 +42,32 @@ struct ContentView: View {
                       })
             }
 
+            // MARK: - Button 3 -
+
+            Divider()
+                .padding()
+
+            TextField("Enter some error text", text: $text, axis: .vertical)
+                .padding()
+                .background(Color.white)
+                .cornerRadius(10)
+                .overlay(RoundedRectangle(cornerRadius: 10)
+                    .stroke(Color.black, lineWidth: 0.5))
+                .shadow(radius: 5)
+
+            Button("Simulate change of error text") {
+                errorText = text
+            }.alert(isPresented: $showError) {
+                Alert(title: Text("Error: "),
+                      message: Text(errorText))
+            }
         }
+        .buttonStyle(BorderedProminentButtonStyle())
 
         .padding()
+        .onChange(of: errorText) { newValue in
+            showError = newValue != ""
+        }
     }
 }
 
